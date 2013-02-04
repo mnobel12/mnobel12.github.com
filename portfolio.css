@@ -1,0 +1,183 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+	
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff;
+	margin: 20px; 
+	padding: 0;
+}
+
+
+p { 
+	margin-top: 20px; 
+	text-align: justify;
+}
+
+
+h1{ 
+	font: bold italic 24pt georgia;
+	margin: 0;
+	padding: 0;
+}
+
+	
+h2{
+	font: bold 14pt georgia;
+	margin: 0px;
+	padding-top: 5px;
+}
+
+
+h3 { 
+	font: italic 12pt georgia;
+	margin: 0; 
+	padding: 0;
+	color: #7D775C;
+}
+
+	
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+	
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+}
+
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+}
+
+nav {	
+	width:250px;
+	top:8em;
+	display:block;
+	position:fixed;
+	margin-top: 175px;
+	margin-left: -530px;
+	left: 50%;
+}
+
+nav ul {
+	width:200px;
+	list-style:none;
+	text-align:center;
+	padding:0;
+}	
+
+nav li {
+	list-style-type:none;
+	left:0px;
+	width:200px;
+	border: 2px solid #000;
+	background-color: #a0a;
+}
+
+nav li:hover{
+	background-color: #505;
+}
+
+nav a {
+	text-decoration:none;
+	color:#000;
+	width:200px;
+}
+
+img {
+	align: center
+}	
+
+/* specific divs */
+#container { 
+	left: 50%;
+	background: rgba(100,176,255,0.7) no-repeat center top; 
+	padding: 0px 0px 50px 0px;  
+	margin-left: -315px; 
+	border: 5px dotted #999999;
+	width: 630px;
+	position: absolute;
+	display: box;
+}
+
+#intro { 
+	width: 360px;
+	margin: 0;
+	border: 0px dotted #999999;
+}
+
+/* using an image to replace text in an h1. This trick courtesy Douglas Bowman, http://www.stopdesign.com/articles/css/replace-text/ */
+#pageHeader h1 { 
+	background: transparent url(header.jpg) no-repeat top center; 
+	margin: 0;
+	border: 0px dotted #999;
+	width: 630px;
+	height: 200px;
+}
+	
+#pageHeader h1 span {
+	display:none
+}
+	
+#pageHeader h2 { 
+	background: transparent url(2.jpg) no-repeat top left; 
+	margin-top: 58px; 
+	margin-bottom: 40px; 
+	width: 200px; 
+	height: 14px; 
+	float: right;
+}
+
+#pageHeader h2 span {
+	display:none
+}
+
+#pageHeader {
+	padding-top: 0px;
+	
+}
+
+#quickSummary {
+	clear:both; 
+	margin: 20px 20px 20px 10px; 
+	width: 160px; 
+	float: left;
+}
+#quickSummary p {
+	font: italic 10pt/22pt georgia; 
+	text-align:center;
+}
+
+#column { 
+	padding: 10px 10px 10px 10px; 
+	width: 500px;
+}
+	
+#supportingText {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+}
+
+#footer { 
+	text-align: center; 
+}
+
+#footer a:link, #footer a:visited { 
+	margin-right: 20px; 
+}
+
