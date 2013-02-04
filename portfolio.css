@@ -99,8 +99,10 @@ nav a {
 	width:200px;
 }
 
-img {
-	align: center
+img.center {
+	display: block;
+	margin-left: 165px; 
+	margin-right: 315px;
 }	
 
 /* specific divs */
@@ -112,11 +114,10 @@ img {
 	border: 5px dotted #999999;
 	width: 630px;
 	position: absolute;
-	display: box;
 }
 
 #intro { 
-	width: 360px;
+	width: 630px;
 	margin: 0;
 	border: 0px dotted #999999;
 }
