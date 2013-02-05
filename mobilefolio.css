@@ -64,12 +64,12 @@ nav {
 	display:block;
 	position:fixed;
 	margin-top: 175px;
-	margin-left: -350px;
+	margin-left: -400px;
 	left: 50%;
 }
 
 nav ul {
-	width:100px;
+	width:200px;
 	list-style:none;
 	text-align:center;
 	padding:0;
@@ -78,7 +78,7 @@ nav ul {
 nav li {
 	list-style-type:none;
 	left:0px;
-	width:100px;
+	width:200px;
 	border: 2px solid #000;
 	background-color: #a0a;
 }
