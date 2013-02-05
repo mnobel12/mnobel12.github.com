@@ -1,42 +1,131 @@
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	nav {	
-		width:150px;
-		margin-left: -300px;
-		left: 50%;
-	}
-
+html {
+	margin: 0;
+	padding: 0;
 }
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
 	
-	
-
-	nav {	
-		width:150px;
-		margin-left: -300px;
-		left: 50%;
-	}
-
-	nav ul {
-		width:100px;
-		padding:0;
-	}	
-
-	nav li {
-		width:100px;
-	}
-
-	nav li:hover{
-		background-color: #505;
-	}
-
-	nav a {
-		text-decoration:none;
-		color:#000;
-		width:200px;
-	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff;
+	margin: 20px; 
+	padding: 0;
 }
+
+p { 
+	margin-top: 20px; 
+	text-align: justify;
+}
+
+h1{ 
+	font: bold italic 24pt georgia;
+	margin: 0;
+	padding: 0;
+}
+	
+h2{
+	font: bold 14pt georgia;
+	margin: 0px;
+	padding-top: 5px;
+}
+
+h3 { 
+	font: italic 12pt georgia;
+	margin: 0; 
+	padding: 0;
+	color: #7D775C;
+}
+	
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+	
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+}
+
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+}
+
+nav {	
+	width:250px;
+	top:8em;
+	display:block;
+	position:fixed;
+	margin-top: 175px;
+	margin-left: -530px;
+	left: 50%;
+}
+
+nav ul {
+	width:200px;
+	list-style:none;
+	text-align:center;
+	padding:0;
+}	
+
+nav li {
+	list-style-type:none;
+	left:0px;
+	width:200px;
+	border: 2px solid #000;
+	background-color: #a0a;
+}
+
+nav li:hover{
+	background-color: #505;
+}
+
+nav a {
+	text-decoration:none;
+	color:#000;
+	width:200px;
+}
+
+img.center {
+	display: block;
+	margin-left: 165px; 
+	margin-right: 315px;
+}	
+
+/* specific divs */
+#container { 
+	left: 50%;
+	background: rgba(100,176,255,0.7) no-repeat center top; 
+	padding: 0px 0px 50px 0px;  
+	margin-left: -315px; 
+	border: 5px dotted #999999;
+	width: 630px;
+	position: absolute;
+}
+
+#pageHeader {
+	padding-top: 0px;	
+}
+#pageHeader h1 { 
+	background: transparent url(header.jpg) no-repeat top center; 
+	margin: 0;
+	border: 0px dotted #999;
+	width: 630px;
+	height: 200px;
+}	
+#pageHeader h1 span {
+	display:none
+}
+
+#column { 
+	padding: 10px 10px 10px 10px; 
+	width: 500px;
+}
+	
