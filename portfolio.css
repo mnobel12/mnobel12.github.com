@@ -134,51 +134,15 @@ img.center {
 #pageHeader h1 span {
 	display:none
 }
-	
-#pageHeader h2 { 
-	background: transparent url(2.jpg) no-repeat top left; 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 14px; 
-	float: right;
-}
-
-#pageHeader h2 span {
-	display:none
-}
 
 #pageHeader {
-	padding-top: 0px;
-	
+	padding-top: 0px;	
 }
 
-#quickSummary {
-	clear:both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-}
-#quickSummary p {
-	font: italic 10pt/22pt georgia; 
-	text-align:center;
-}
+
 
 #column { 
 	padding: 10px 10px 10px 10px; 
 	width: 500px;
 }
 	
-#supportingText {	
-	padding-left: 10px; 
-	margin-bottom: 40px;
-}
-
-#footer { 
-	text-align: center; 
-}
-
-#footer a:link, #footer a:visited { 
-	margin-right: 20px; 
-}
-
