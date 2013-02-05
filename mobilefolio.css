@@ -4,7 +4,7 @@ html {
 }
 	
 body { 
-	font: 75% georgia, sans-serif;
+	font: 12pt georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
 	background: #fff;
@@ -59,7 +59,7 @@ a:hover, a:active {
 }
 
 nav {	
-	width:250px;
+	width:150px;
 	top:8em;
 	display:block;
 	position:fixed;
@@ -69,7 +69,7 @@ nav {
 }
 
 nav ul {
-	width:200px;
+	width:100px;
 	list-style:none;
 	text-align:center;
 	padding:0;
@@ -78,7 +78,7 @@ nav ul {
 nav li {
 	list-style-type:none;
 	left:0px;
-	width:200px;
+	width:100px;
 	border: 2px solid #000;
 	background-color: #a0a;
 }
