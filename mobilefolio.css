@@ -1,27 +1,29 @@
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
 
-nav {	
-	width:100px;
-	margin-left: -300px;
-	left: 50%;
-}
 
-nav ul {
-	width:100px;
-	padding:0;
-}	
+	nav {	
+		width:150px;
+		margin-left: -430px;
+		left: 50%;
+	}
 
-nav li {
-	width:100px;
-}
+	nav ul {
+		width:100px;
+		padding:0;
+	}	
 
-nav li:hover{
-	background-color: #505;
-}
+	nav li {
+		width:100px;
+	}
 
-nav a {
-	text-decoration:none;
-	color:#000;
-	width:200px;
+	nav li:hover{
+		background-color: #505;
+	}
+
+	nav a {
+		text-decoration:none;
+		color:#000;
+		width:200px;
+	}
 }
