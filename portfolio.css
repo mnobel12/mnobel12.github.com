@@ -2,7 +2,6 @@ html {
 	margin: 0;
 	padding: 0;
 }
-
 	
 body { 
 	font: 75% georgia, sans-serif;
@@ -13,19 +12,16 @@ body {
 	padding: 0;
 }
 
-
 p { 
 	margin-top: 20px; 
 	text-align: justify;
 }
-
 
 h1{ 
 	font: bold italic 24pt georgia;
 	margin: 0;
 	padding: 0;
 }
-
 	
 h2{
 	font: bold 14pt georgia;
@@ -33,14 +29,12 @@ h2{
 	padding-top: 5px;
 }
 
-
 h3 { 
 	font: italic 12pt georgia;
 	margin: 0; 
 	padding: 0;
 	color: #7D775C;
 }
-
 	
 ul {
   margin-top: 0;
@@ -116,30 +110,19 @@ img.center {
 	position: absolute;
 }
 
-#intro { 
-	width: 630px;
-	margin: 0;
-	border: 0px dotted #999999;
+#pageHeader {
+	padding-top: 0px;	
 }
-
-/* using an image to replace text in an h1. This trick courtesy Douglas Bowman, http://www.stopdesign.com/articles/css/replace-text/ */
 #pageHeader h1 { 
 	background: transparent url(header.jpg) no-repeat top center; 
 	margin: 0;
 	border: 0px dotted #999;
 	width: 630px;
 	height: 200px;
-}
-	
+}	
 #pageHeader h1 span {
 	display:none
 }
-
-#pageHeader {
-	padding-top: 0px;	
-}
-
-
 
 #column { 
 	padding: 10px 10px 10px 10px; 
