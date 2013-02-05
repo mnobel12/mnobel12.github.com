@@ -59,12 +59,12 @@ a:hover, a:active {
 }
 
 nav {	
-	width:150px;
+	width:200px;
 	top:8em;
 	display:block;
 	position:fixed;
 	margin-top: 175px;
-	margin-left: -300px;
+	margin-left: -350px;
 	left: 50%;
 }
 
