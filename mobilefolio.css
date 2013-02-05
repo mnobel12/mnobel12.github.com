@@ -1,8 +1,23 @@
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
 	nav {	
 		width:150px;
-		margin-left: -200px;
+		margin-left: -300px;
+		left: 50%;
+	}
+
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	
+	
+
+	nav {	
+		width:150px;
+		margin-left: -300px;
 		left: 50%;
 	}
 
