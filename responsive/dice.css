@@ -1,0 +1,7 @@
+h1.dice{ 
+	display: block;
+	font: bold 36pt georgia;
+	margin: 0;
+	padding: 0;
+}
+h1.nodice{ display:none;}
